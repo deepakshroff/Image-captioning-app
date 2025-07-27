@@ -1,0 +1,47 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #8e9eab, #eef2f3);
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+    text-align: center;
+    width: 600px;
+}
+
+input[type="file"] {
+    margin: 20px;
+}
+
+button {
+    background: #4CAF50;
+    color: white;
+    padding: 10px 25px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+.output img.glider {
+    max-width: 100%;
+    margin-top: 20px;
+    animation: glide 3s ease-in-out infinite;
+    border-radius: 15px;
+}
+
+@keyframes glide {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+}
