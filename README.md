@@ -8,8 +8,8 @@ The **AI Image Captioning App** is a Flask-based web application that uses a dee
 
 <table>
   <tr>
-    <td><img src="Screenshot%202025-07-27%20161935.png" width="100%"/></td>
     <td><img src="Screenshot%202025-07-27%20162017.png" width="100%"/></td>
+    <td><img src="Screenshot%202025-07-27%20161935.png" width="100%"/></td>
   </tr>
 </table>
 
