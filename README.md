@@ -40,5 +40,32 @@ The **AI Image Captioning App** is a Flask-based web application that uses a dee
 
 ---
 
-## 📁 Project Structure
+## 💡 How to Run Locally
 
+### 🛠 Prerequisites
+- Python 3.x  
+- Pip  
+- Virtualenv (optional but recommended)
+
+### ⚙️ Steps
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/AI-Image-Captioning.git
+   cd AI-Image-Captioning
+
+---
+
+## 🔍 How It Works
+- User uploads an image through the UI
+- The image is saved to the /static/uploads/ directory
+- The model (in caption_model.py) processes the image
+- The generated caption and confidence score are returned and displayed
+
+## 🔮 Future Enhancements
+- 🖼️ Support for drag-and-drop image upload
+- 🧠 Use more powerful models like BLIP or Vision Transformers
+- 🌐 Add language translation for captions
+- ☁️ Deploy on Render or HuggingFace Spaces
+
+---
